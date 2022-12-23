@@ -1,12 +1,12 @@
 ## Notes
-Throughout the codebase - you'll notice documentation. Some are denoted with "// * Developer Note" - these are notes left for the reviewer(s) to gove more insight into the decision process.
+Throughout the codebase - you'll notice documentation. Some are denoted with "// * Developer Note" - these are notes left for the reviewer(s) to give more insight into the decision process.
 
 There are some bits of pseudo code by these comments to indicate certain features that could be done in a full-fledge production. 
 
 There is a link to a video of the app walkthrough
 
 ### Date
-December 22ns, 2022 🎅
+December 22nd, 2022 🎅
 
 ### Instructions for how to build & run the app
 To run, open a terminal in this project directory and run this command:
@@ -23,33 +23,33 @@ Some assumptions I made were:
 
 - I assumed we'd want a way for the user to refresh the data so I added a refresh function to allow the user to refresh the rocket data by pulling down
 
-- I assumed packages were fine to use but opted not to use any for the stretch goals (aside from the firebase package of course). I decided to not use any packages for Navigator 2.0 since each team uses their own (also should have some understanding of how it works under the hood)
+- I assumed packages were fine to use but opted not to use any for the stretch goals (aside from the firebase package of course). I decided to not use any packages for Navigator 2.0 since each team has their own approach with packages (also should have some understanding of how it works under the hood)
 
 
 ### Assume your application will go into production...
 1. What would be your approach to ensuring the application is ready for production
 (testing)?
 
-Step 1: Ensure all unit tests are passing
-Step 2: Ensure integration tests are passing
-Step 3: Test each feature from the engineering / QA team (if aplicable)
-Step 3A: Ensure all errors are caught and being handled properly
-Step 3B: Test on multiple emulators, physical devices, and operating systems
-Step 4: Create and release internal builds (Test flight for iOS, Testing release on the Playstore) and have internal stakeholders test the app
-Step 5: Monitor error logging system (Sentry for example)
-Step 6: Have the teams download and test the live production app during the soft launch and go over each feature
-Step 7: If everything is passing, it's safe to let our users know of the new live version (assuming via email or our marketing channels)
+1. Step 1: Ensure all unit tests are passing
+2. Step 2: Ensure integration tests are passing
+3. Step 3: Test each feature from the engineering / QA team (if aplicable)
+4. Step 3A: Ensure all errors are caught and being handled properly
+5. Step 3B: Test on multiple emulators, physical devices, and operating systems
+6. Step 4: Create and release internal builds (Test flight for iOS, Testing release on the Playstore) and have internal stakeholders test the app
+7. Step 5: Monitor error logging system (Sentry for example)
+8. Step 6: Have the teams download and test the live production app during the soft launch and go over each feature
+9. Step 7: If everything is passing, it's safe to let our users know of the new live version (assuming via email or our marketing channels)
 
 This allows for multiple scenarios, user patterns, and edge cases to be covered
 
 2. How would you ensure a smooth user experience as 1000s of users start using your
 app simultaneously?
 
-If this is an app that requires a lot of dynamic data from our servers - implement serverside caching.
-If our server hardware isn't strong enough to handle multiple users at one, implement a load balancing function on the servers.
-If both of those still aren't enough, add API queueing and throttling to manage the incoming loads on our servers
+- If this is an app that requires a lot of dynamic data from our servers - implement serverside caching.
+- If our server hardware isn't strong enough to handle multiple users at one, implement a load balancing function on the servers.
+- If both of those still aren't enough, add API queueing and throttling to manage the incoming loads on our servers
 
-On the app side - conduct extensive testing especially during initial / major launches
+On the app side - conduct extensive testing especially during initial / major launches (like the steps mentioned above)
 
 3. What key steps would you take to ensure application security?
 
