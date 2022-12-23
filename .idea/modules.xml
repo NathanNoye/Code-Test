@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/thinkific_codetest.iml" filepath="$PROJECT_DIR$/thinkific_codetest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/thinkific_codetest_android.iml" filepath="$PROJECT_DIR$/android/thinkific_codetest_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redacted_codetest.iml" filepath="$PROJECT_DIR$/redacted_codetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/redacted_codetest_android.iml" filepath="$PROJECT_DIR$/android/redacted_codetest_android.iml" />
     </modules>
   </component>
 </project>

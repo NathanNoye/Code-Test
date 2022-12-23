@@ -47,36 +47,38 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyCuqfbwKdEurXuame5IWUUN_fPncNf7B0U',
     appId: '1:141843367287:web:f9fa2864c3ac9e1f9a8d72',
     messagingSenderId: '141843367287',
-    projectId: 'thinkific-code-test',
-    authDomain: 'thinkific-code-test.firebaseapp.com',
-    storageBucket: 'thinkific-code-test.appspot.com',
+    projectId: 'redacted-code-test',
+    authDomain: 'redacted-code-test.firebaseapp.com',
+    storageBucket: 'redacted-code-test.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBdVXFAZ_GTjr9QlFZ7kWega4BUgiK_5G4',
     appId: '1:141843367287:android:a76efe05a6cf339a9a8d72',
     messagingSenderId: '141843367287',
-    projectId: 'thinkific-code-test',
-    storageBucket: 'thinkific-code-test.appspot.com',
+    projectId: 'redacted-code-test',
+    storageBucket: 'redacted-code-test.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAZHxUbYqgmQ4dVoIOzHMNb2Jwv2_jZ2mo',
     appId: '1:141843367287:ios:b1cb72c7f6d49ab69a8d72',
     messagingSenderId: '141843367287',
-    projectId: 'thinkific-code-test',
-    storageBucket: 'thinkific-code-test.appspot.com',
-    iosClientId: '141843367287-rcofro4p382inknl97qak2ont17blj5a.apps.googleusercontent.com',
-    iosBundleId: 'com.example.thinkificCodetest',
+    projectId: 'redacted-code-test',
+    storageBucket: 'redacted-code-test.appspot.com',
+    iosClientId:
+        '141843367287-rcofro4p382inknl97qak2ont17blj5a.apps.googleusercontent.com',
+    iosBundleId: 'com.example.redactedCodetest',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAZHxUbYqgmQ4dVoIOzHMNb2Jwv2_jZ2mo',
     appId: '1:141843367287:ios:b1cb72c7f6d49ab69a8d72',
     messagingSenderId: '141843367287',
-    projectId: 'thinkific-code-test',
-    storageBucket: 'thinkific-code-test.appspot.com',
-    iosClientId: '141843367287-rcofro4p382inknl97qak2ont17blj5a.apps.googleusercontent.com',
-    iosBundleId: 'com.example.thinkificCodetest',
+    projectId: 'redacted-code-test',
+    storageBucket: 'redacted-code-test.appspot.com',
+    iosClientId:
+        '141843367287-rcofro4p382inknl97qak2ont17blj5a.apps.googleusercontent.com',
+    iosBundleId: 'com.example.redactedCodetest',
   );
 }

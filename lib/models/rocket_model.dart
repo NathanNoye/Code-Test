@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:thinkific_codetest/enums/rocket_engine_enum.dart';
-import 'package:thinkific_codetest/enums/spacex_enum.dart';
+import 'package:redacted_codetest/enums/rocket_engine_enum.dart';
+import 'package:redacted_codetest/enums/spacex_enum.dart';
 
 class RocketModel extends Equatable {
   final String id;

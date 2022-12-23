@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/foundation.dart';
-import 'package:thinkific_codetest/constants.dart';
-import 'package:thinkific_codetest/locator.dart';
-import 'package:thinkific_codetest/models/rocket_model.dart';
-import 'package:thinkific_codetest/queries/rockets_query.dart';
-import 'package:thinkific_codetest/services/api_service.dart';
+import 'package:redacted_codetest/constants.dart';
+import 'package:redacted_codetest/locator.dart';
+import 'package:redacted_codetest/models/rocket_model.dart';
+import 'package:redacted_codetest/queries/rockets_query.dart';
+import 'package:redacted_codetest/services/api_service.dart';
 
 class RocketRepository {
   FirebaseFirestore firestore = FirebaseFirestore.instance;

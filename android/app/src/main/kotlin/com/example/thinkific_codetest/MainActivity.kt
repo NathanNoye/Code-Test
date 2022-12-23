@@ -1,4 +1,4 @@
-package com.example.thinkific_codetest
+package com.example.redacted_codetest
 
 import io.flutter.embedding.android.FlutterActivity
 

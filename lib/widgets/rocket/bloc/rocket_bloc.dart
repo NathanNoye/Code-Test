@@ -2,10 +2,10 @@ import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thinkific_codetest/locator.dart';
-import 'package:thinkific_codetest/models/rocket_model.dart';
-import 'package:thinkific_codetest/services/error_service.dart';
-import 'package:thinkific_codetest/widgets/rocket/bloc/rocket_repo.dart';
+import 'package:redacted_codetest/locator.dart';
+import 'package:redacted_codetest/models/rocket_model.dart';
+import 'package:redacted_codetest/services/error_service.dart';
+import 'package:redacted_codetest/widgets/rocket/bloc/rocket_repo.dart';
 
 part 'rocket_event.dart';
 part 'rocket_state.dart';

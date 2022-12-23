@@ -4,13 +4,13 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thinkific_codetest/locator.dart';
-import 'package:thinkific_codetest/models/rocket_model.dart';
-import 'package:thinkific_codetest/screens/home_screen.dart';
-import 'package:thinkific_codetest/screens/rocket_detail_screen.dart';
-import 'package:thinkific_codetest/screens/staging_error_screen.dart';
-import 'package:thinkific_codetest/services/error_service.dart';
-import 'package:thinkific_codetest/widgets/rocket/bloc/rocket_bloc.dart';
+import 'package:redacted_codetest/locator.dart';
+import 'package:redacted_codetest/models/rocket_model.dart';
+import 'package:redacted_codetest/screens/home_screen.dart';
+import 'package:redacted_codetest/screens/rocket_detail_screen.dart';
+import 'package:redacted_codetest/screens/staging_error_screen.dart';
+import 'package:redacted_codetest/services/error_service.dart';
+import 'package:redacted_codetest/widgets/rocket/bloc/rocket_bloc.dart';
 
 import 'firebase_options.dart';
 

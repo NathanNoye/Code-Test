@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "thinkific_codetest" "\0"
+            VALUE "FileDescription", "redacted_codetest" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "thinkific_codetest" "\0"
+            VALUE "InternalName", "redacted_codetest" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "thinkific_codetest.exe" "\0"
-            VALUE "ProductName", "thinkific_codetest" "\0"
+            VALUE "OriginalFilename", "redacted_codetest.exe" "\0"
+            VALUE "ProductName", "redacted_codetest" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

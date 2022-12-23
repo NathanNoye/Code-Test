@@ -13,9 +13,9 @@ import 'package:fake_cloud_firestore/fake_cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:thinkific_codetest/models/rocket_model.dart';
-import 'package:thinkific_codetest/widgets/rocket/bloc/rocket_bloc.dart';
-import 'package:thinkific_codetest/widgets/rocket/bloc/rocket_repo.dart';
+import 'package:redacted_codetest/models/rocket_model.dart';
+import 'package:redacted_codetest/widgets/rocket/bloc/rocket_bloc.dart';
+import 'package:redacted_codetest/widgets/rocket/bloc/rocket_repo.dart';
 
 void main() async {
   TestWidgetsFlutterBinding.ensureInitialized();

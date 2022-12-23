@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thinkific_codetest/constants.dart';
-import 'package:thinkific_codetest/widgets/rocket/rocket_list.dart';
+import 'package:redacted_codetest/constants.dart';
+import 'package:redacted_codetest/widgets/rocket/rocket_list.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String id = Constants.homeScreen;

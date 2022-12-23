@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thinkific_codetest/widgets/rocket/bloc/rocket_bloc.dart';
-import 'package:thinkific_codetest/widgets/rocket/rocket_list_item.dart';
+import 'package:redacted_codetest/widgets/rocket/bloc/rocket_bloc.dart';
+import 'package:redacted_codetest/widgets/rocket/rocket_list_item.dart';
 
 class RocketList extends StatefulWidget {
   const RocketList({super.key});

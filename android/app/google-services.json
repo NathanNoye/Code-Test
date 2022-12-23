@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "141843367287",
-    "project_id": "thinkific-code-test",
-    "storage_bucket": "thinkific-code-test.appspot.com"
+    "project_id": "redacted-code-test",
+    "storage_bucket": "redacted-code-test.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:141843367287:android:a76efe05a6cf339a9a8d72",
         "android_client_info": {
-          "package_name": "com.example.thinkific_codetest"
+          "package_name": "com.example.redacted_codetest"
         }
       },
       "oauth_client": [

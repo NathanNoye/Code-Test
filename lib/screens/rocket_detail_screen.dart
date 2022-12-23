@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:thinkific_codetest/models/rocket_model.dart';
+import 'package:redacted_codetest/models/rocket_model.dart';
 
 class RocketDetailScreen extends StatefulWidget {
   final RocketModel rocketModel;
