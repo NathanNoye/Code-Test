@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/foundation.dart';
+import 'package:thinkific_codetest/constants.dart';
 import 'package:thinkific_codetest/locator.dart';
 import 'package:thinkific_codetest/models/rocket_model.dart';
 import 'package:thinkific_codetest/queries/rockets_query.dart';
@@ -79,7 +80,7 @@ class RocketRepository {
     Stopwatch stopwatch = Stopwatch();
     stopwatch.start();
     dynamic result = await locator<ApiService>().graphQL(
-      url: 'https://api.spacex.land/graphql/',
+      url: '${Constants.spacexBaseUrl}${Constants.graphQL}',
       query: getRocketsQuery(),
     );
     stopwatch.stop();

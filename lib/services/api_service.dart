@@ -13,7 +13,6 @@ class ApiService {
       );
 
       final GraphQLClient client = GraphQLClient(
-        /// **NOTE** The default store is the InMemoryStore, which does NOT persist to disk
         cache: GraphQLCache(),
         link: _httpLink,
       );
@@ -25,14 +24,7 @@ class ApiService {
       final QueryResult result = await client.query(options);
 
       return result.data ?? {};
-    } catch (exception, stackTrace) {
-      print(exception.runtimeType);
-      print(stackTrace.runtimeType);
-
-      // await locator<ErrorService>().captureException(exception, stackTrace,
-      //     debuggingMessage:
-      // 'Caught API Error in Dio.graphql: ${exception.response?.statusCode ?? 999} | URL: $url');
-
+    } catch (exception) {
       throw exception;
     }
   }

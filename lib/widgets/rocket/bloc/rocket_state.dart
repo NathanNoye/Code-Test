@@ -30,8 +30,6 @@ class RocketLoading extends RocketState {}
 
 class RocketRefreshing extends RocketState {}
 
-class RocketFetchError extends RocketState {}
-
 class RocketFetchFailed extends RocketState {}
 
 class RocketDetailSelected extends RocketState {

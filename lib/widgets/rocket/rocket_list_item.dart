@@ -32,7 +32,7 @@ class RocketListItem extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'First launch: ${rocketModel.firstFlight.toIso8601String().split('T')[0]}',
+                  'First flight: ${rocketModel.firstFlight.toIso8601String().split('T')[0]}',
                   style: TextStyle(
                     fontSize: 14,
                   ),
