@@ -1,0 +1,90 @@
+{
+    "data": {
+        "rockets": [
+            {
+                "description": "The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.",
+                "id": "falcon1",
+                "name": "Falcon 1",
+                "type": "rocket",
+                "mass": {
+                    "kg": 30146
+                },
+                "height": {
+                    "meters": 22.25
+                },
+                "engines": {
+                    "number": 1,
+                    "type": "merlin",
+                    "version": "1C"
+                },
+                "success_rate_pct": 40,
+                "wikipedia": "https://en.wikipedia.org/wiki/Falcon_1",
+                "stages": 2,
+                "first_flight": "2006-03-24"
+            },
+            {
+                "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.",
+                "id": "falcon9",
+                "name": "Falcon 9",
+                "type": "rocket",
+                "mass": {
+                    "kg": 549054
+                },
+                "height": {
+                    "meters": 70
+                },
+                "engines": {
+                    "number": 9,
+                    "type": "merlin",
+                    "version": "1D+"
+                },
+                "success_rate_pct": 97,
+                "wikipedia": "https://en.wikipedia.org/wiki/Falcon_9",
+                "stages": 2,
+                "first_flight": "2010-06-04"
+            },
+            {
+                "description": "With the ability to lift into orbit over 54 metric tons (119,000 lb)--a mass equivalent to a 737 jetliner loaded with passengers, crew, luggage and fuel--Falcon Heavy can lift more than twice the payload of the next closest operational vehicle, the Delta IV Heavy, at one-third the cost.",
+                "id": "falconheavy",
+                "name": "Falcon Heavy",
+                "type": "rocket",
+                "mass": {
+                    "kg": 1420788
+                },
+                "height": {
+                    "meters": 70
+                },
+                "engines": {
+                    "number": 27,
+                    "type": "merlin",
+                    "version": "1D+"
+                },
+                "success_rate_pct": 100,
+                "wikipedia": "https://en.wikipedia.org/wiki/Falcon_Heavy",
+                "stages": 2,
+                "first_flight": "2018-02-06"
+            },
+            {
+                "description": "Starship and Super Heavy Rocket represent a fully reusable transportation system designed to service all Earth orbit needs as well as the Moon and Mars. This two-stage vehicle — composed of the Super Heavy rocket (booster) and Starship (ship) — will eventually replace Falcon 9, Falcon Heavy and Dragon.",
+                "id": "starship",
+                "name": "Starship",
+                "type": "rocket",
+                "mass": {
+                    "kg": 1335000
+                },
+                "height": {
+                    "meters": 118
+                },
+                "engines": {
+                    "number": 37,
+                    "type": "raptor",
+                    "version": ""
+                },
+                "success_rate_pct": 0,
+                "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                "stages": 2,
+                "first_flight": "2021-12-01"
+            }
+        ]
+    }
+}

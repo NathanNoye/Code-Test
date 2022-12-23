@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "141843367287",
+    "project_id": "thinkific-code-test",
+    "storage_bucket": "thinkific-code-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141843367287:android:a76efe05a6cf339a9a8d72",
+        "android_client_info": {
+          "package_name": "com.example.thinkific_codetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141843367287-94btl5te69lu0hr2abi9dvdalkatab5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdVXFAZ_GTjr9QlFZ7kWega4BUgiK_5G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141843367287-94btl5te69lu0hr2abi9dvdalkatab5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
